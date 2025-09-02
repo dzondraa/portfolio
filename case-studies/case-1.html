@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Case Study — Payments Platform Scale-Up</title>
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="../index.html#home">GN</a>
+        <nav class="nav"><ul class="nav-list"><li><a href="./index.html">All case studies</a></li></ul></nav>
+      </div>
+    </header>
+    <main class="section">
+      <div class="container">
+        <h1>Payments Platform Scale-Up</h1>
+        <div class="grid two">
+          <div>
+            <div class="card">
+              <h3>Context</h3>
+              <p>Fast-growing fintech processing millions of transactions per day faced scaling limits with a monolithic service. Failures during peak traffic windows impacted revenue and trust.</p>
+            </div>
+            <div class="card">
+              <h3>Approach</h3>
+              <ul class="bullets">
+                <li>Domain modeling and event storming with stakeholders</li>
+                <li>Introduced event-driven services with idempotent processors</li>
+                <li>Added observability: tracing, metrics SLIs/SLOs, alerting</li>
+                <li>Blue/green deployments and progressive delivery</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div class="card">
+              <h3>Outcomes</h3>
+              <ul class="bullets">
+                <li>99.99% availability across payment paths</li>
+                <li>40% infrastructure cost reduction</li>
+                <li>MTTR reduced from hours to minutes</li>
+                <li>Clear ownership and faster feature delivery</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Tech Highlights</h3>
+              <ul class="bullets small">
+                <li>AWS SNS/SQS, Lambda, ECS Fargate</li>
+                <li>TypeScript/Node, Python workers</li>
+                <li>OpenTelemetry, Grafana, CloudWatch</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="site-footer"><div class="container footer-inner"><p>© <span id="year"></span> George Nikolic</p></div></footer>
+    <script src="../js/main.js"></script>
+  </body>
+  </html>
+
+

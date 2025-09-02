@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>George Nikolic — Software Development Consultant</title>
+    <meta name="description" content="Portfolio website for a software development consultant: case studies, services, background, and products.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="#home" aria-label="Home">GN</a>
+        <nav class="nav" id="primary-nav" aria-label="Primary">
+          <button class="nav-toggle" aria-controls="primary-nav-list" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+          </button>
+          <ul class="nav-list" id="primary-nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="background/index.html">Background</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#case-studies">Case Studies</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="blog/index.html">Blog</a></li>
+            <li><a href="#contact" class="btn btn-sm">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h1>George Nikolic — building reliable software that moves the needle</h1>
+            <p>Software development consultant helping teams ship faster with confidence. I align product goals with pragmatic architecture, establish modern delivery practices, and roll up my sleeves to deliver high-impact features end to end.</p>
+            <div class="hero-cta">
+              <a href="#services" class="btn">Explore services</a>
+              <a href="#case-studies" class="btn btn-secondary">See case studies</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container grid two">
+          <div>
+            <h2>Background</h2>
+            <p>I'm George Nikolic, a software development consultant experienced across SaaS, fintech, and internal platforms. I specialize in TypeScript/Node, React, and Python, designing cloud-native systems on AWS and Azure that balance speed, reliability, and cost.</p>
+            <ul class="checklist">
+              <li>10+ years building and leading engineering initiatives</li>
+              <li>Scalable architectures, DX and productivity, data-driven delivery</li>
+              <li>Hands-on from prototypes to production reliability</li>
+            </ul>
+          </div>
+          <div>
+            <div class="card">
+              <h3>Capabilities</h3>
+              <ul class="bullets">
+                <li>Product discovery & technical strategy</li>
+                <li>Architecture & platform foundations</li>
+                <li>Full-stack feature delivery</li>
+                <li>Performance & cost optimization</li>
+                <li>Team enablement & mentorship</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section alt">
+        <div class="container">
+          <h2>Services</h2>
+          <div class="grid three">
+            <div class="service card">
+              <h3>Consulting</h3>
+              <p>Hands-on guidance to align product goals with technical execution and accelerate outcomes.</p>
+              <ul class="bullets small">
+                <li>Roadmapping & prioritization</li>
+                <li>Architecture & platform choices</li>
+                <li>Delivery leadership & enablement</li>
+              </ul>
+            </div>
+            <div class="service card">
+              <h3>Auditing</h3>
+              <p>Independent assessments to surface risks and opportunities across code, cloud, and processes.</p>
+              <ul class="bullets small">
+                <li>Architecture & security reviews</li>
+                <li>Performance and cost audits</li>
+                <li>DX, CI/CD, and observability</li>
+              </ul>
+            </div>
+            <div class="service card">
+              <h3>Project Initiation</h3>
+              <p>Kickstart critical projects with clear scope, MVP slices, and foundations that scale.</p>
+              <ul class="bullets small">
+                <li>Discovery & technical design</li>
+                <li>MVP architecture & scaffolding</li>
+                <li>Delivery plan and milestones</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="case-studies" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Case Studies</h2>
+            <a class="link" href="case-studies/index.html">View all</a>
+          </div>
+          <div class="grid three">
+            <a class="card link-card" href="case-studies/case-1.html">
+              <h3>Payments Platform Scale-Up</h3>
+              <p>Migrated to event-driven architecture; 99.99% availability and 40% cost savings.</p>
+              <span class="more">Read case</span>
+            </a>
+            <a class="card link-card" href="case-studies/case-1.html">
+              <h3>B2B SaaS MVP to GA</h3>
+              <p>Delivered v1 in 8 weeks; onboarding time down 60% with self-serve flows.</p>
+              <span class="more">Read case</span>
+            </a>
+            <a class="card link-card" href="case-studies/case-1.html">
+              <h3>Data Pipeline Reliability</h3>
+              <p>Rebuilt ingestion with idempotency and monitoring; reduced incidents by 90%.</p>
+              <span class="more">Read case</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="products" class="section alt">
+        <div class="container">
+          <div class="section-head">
+            <h2>Products</h2>
+            <a class="link" href="products/index.html">Explore</a>
+          </div>
+          <div class="grid two">
+            <div class="card">
+              <h3>EngOps Toolkit</h3>
+              <p>A set of templates and scripts to bootstrap CI/CD, observability, and release practices for new teams.</p>
+            </div>
+            <div class="card">
+              <h3>Startup Metrics Starter</h3>
+              <p>Plug-and-play analytics definitions and dashboards for early-stage SaaS tracking activation, retention, and revenue.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="blog" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Latest Posts</h2>
+            <a class="link" href="blog/index.html">View all</a>
+          </div>
+          <div id="home-blog-list" class="grid three"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container grid two">
+          <div>
+            <h2>Contact</h2>
+            <p>Interested in working together? Email me with a short note about your context, timeline, and goals.</p>
+            <a class="btn" href="mailto:nikolic@gmail.com?subject=Consulting%20Inquiry">nikolic@gmail.com</a>
+          </div>
+          <div>
+            <div class="card">
+              <h3>Typical Engagements</h3>
+              <ul class="bullets small">
+                <li>Advisory: 2–4 hours/week</li>
+                <li>Project-based: 4–20 weeks</li>
+                <li>Fractional: 1–3 days/week</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> George Nikolic — Software Development Consultant</p>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/djordje-nikolic-850a44197/" aria-label="LinkedIn">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+    <script id="posts-data" type="application/json">[
+      {"slug":"how-i-approach-audits","title":"How I Approach Technical Audits","date":"2025-08-15","excerpt":"A pragmatic framework to surface risks and prioritise high‑leverage improvements across code, cloud, and delivery."},
+      {"slug":"shipping-mvps-fast","title":"Shipping MVPs Fast (Without Regrets)","date":"2025-08-05","excerpt":"Lean slices, clear success metrics, and guardrails that keep momentum without sacrificing future velocity."},
+      {"slug":"event-driven-architectures","title":"Event‑Driven Architectures: When and Why","date":"2025-07-25","excerpt":"Signs you’re ready for events, pitfalls to avoid, and practices that make it scale."},
+      {"slug":"choosing-right-architecture","title":"Choosing the Right Architecture (Today)","date":"2025-07-15","excerpt":"A decision-first guide to monoliths, modular monoliths, and microservices with trade‑offs."},
+      {"slug":"pragmatic-observability","title":"Pragmatic Observability for Small Teams","date":"2025-07-05","excerpt":"The minimum useful tracing, metrics, and alerts to reduce MTTR and build confidence."}
+    ]</script>
+    <script src="js/main.js"></script>
+  </body>
+  </html>
+
+
