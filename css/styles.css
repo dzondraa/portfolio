@@ -16,6 +16,7 @@ img{max-width:100%;height:auto}
 .site-header{position:sticky;top:0;z-index:10;background:rgba(11,15,20,.8);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
 .header-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
 .logo{font-weight:800;color:#fff;letter-spacing:.5px}
+.logo img{height:28px;width:auto;display:block;border-radius:6px}
 .nav-toggle{display:none;background:none;border:0;cursor:pointer;padding:8px;margin-right:-8px}
 .nav-toggle-bar{display:block;width:22px;height:2px;background:#d8e1ea;margin:5px 0;border-radius:1px}
 .nav-list{display:flex;gap:16px;list-style:none;margin:0;padding:0;align-items:center}
@@ -30,10 +31,14 @@ img{max-width:100%;height:auto}
 .btn-alt:hover{filter:brightness(1.05)}
 
 .hero{padding:72px 0;background:radial-gradient(1200px 500px at 20% -10%,rgba(82,209,176,.15),transparent 60%),radial-gradient(1000px 500px at 80% 0,rgba(106,166,255,.15),transparent 60%)}
-.hero-inner{display:grid;grid-template-columns:1fr;gap:24px}
+.hero-inner{display:grid;grid-template-columns:1fr;gap:24px;align-items:center}
 .hero h1{font-size:42px;line-height:1.15;margin:0 0 12px}
 .hero p{max-width:720px;color:var(--muted);margin:0 0 20px}
 .hero-cta{display:flex;gap:12px;flex-wrap:wrap}
+
+/* Hero photo styling */
+.hero-photo{display:none}
+.hero-photo img{border-radius:16px;border:1px solid var(--border);box-shadow:0 8px 24px rgba(0,0,0,.25);background:#0c1726;object-fit:cover}
 
 .section{padding:56px 0;border-top:1px solid var(--border)}
 .section.alt{background:var(--bg-elev)}
@@ -89,6 +94,8 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation M
   .grid.two{grid-template-columns:1fr 1fr}
   .grid.three{grid-template-columns:repeat(3,1fr)}
   .hero h1{font-size:54px}
+  .hero-inner{grid-template-columns:1.3fr .7fr}
+  .hero-photo{display:block;justify-self:end}
 }
 
 @media(max-width:719px){
